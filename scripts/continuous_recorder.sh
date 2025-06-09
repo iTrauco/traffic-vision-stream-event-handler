@@ -2,8 +2,8 @@
 # continuous multi-camera recorder - production service
 
 CSV_FILE="data/gdot_midtown_atlanta_streams.csv"
-DURATION=15  # 15 minutes
-OUTPUT_DIR="recordings"
+DURATION=1500  # 15 minutes
+OUTPUT_DIR="/home/trauco/traffic-recordings"
 TEMP_DIR="temp_recording"
 MAX_CAMERAS=7
 LOG_FILE="recorder.log"
